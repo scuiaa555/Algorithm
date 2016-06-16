@@ -16,7 +16,11 @@ using std::vector;
 int main(int argc, const char *argv[]) {
 
     vector<int> a(5, 1);
+    vector<int> c(11, 2);
     vector<int> b(a.begin(), a.end());
+    b.insert(b.begin(), a.begin(), a.end());
+    b[2] = b[2] + 1;
+    c.assign(b.begin(), b.end());
 
 /*  Testing "sorting.h"
  *
