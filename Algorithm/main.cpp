@@ -9,7 +9,11 @@
 //#include <iostream>
 //#include "sorting.h"
 
-int main(int argc, const char * argv[]) {
+#include <vector>
+
+using std::vector;
+
+int main(int argc, const char *argv[]) {
 
 /*  Testing "sorting.h"
  *
