@@ -15,6 +15,9 @@ using std::vector;
 
 int main(int argc, const char *argv[]) {
 
+    vector<int> a(5, 1);
+    vector<int> b(a.begin(), a.end());
+
 /*  Testing "sorting.h"
  *
  *  vector<double> a(5);
