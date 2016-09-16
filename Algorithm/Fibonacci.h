@@ -19,6 +19,8 @@ public:
     bool isMarked_;
     std::list<FibonacciNode> children_;
 
+    /* vector is a better choice */
+
     friend bool operator<(const FibonacciNode &lhs, const FibonacciNode &rhs);
 };
 
@@ -34,6 +36,8 @@ public:
     void insert(double x);
 
     double extract_min();
+
+//    void decrease_key
 
     unsigned long size() const { return size_; }
 

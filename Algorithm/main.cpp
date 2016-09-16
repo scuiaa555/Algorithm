@@ -7,6 +7,7 @@
 //
 
 #include <vector>
+#include <numeric>
 //#include <armadillo>
 
 //#include "sorting.h"
@@ -21,16 +22,14 @@ using namespace std;
 int main() {
     /* Test Fibonacci heap */
 
-    FibonacciHeap heap;
-    heap.insert(3);
-    heap.insert(2);
-    heap.insert(4);
-    heap.insert(1);
-    double min = heap.extract_min();
-    min = heap.extract_min();
-    min = heap.extract_min();
-//    double c = heap.root_.begin()->children_.begin()->val_;
-//    unsigned long b = heap.root_.begin()->children_.size();
+//    FibonacciHeap heap;
+//    heap.insert(3);
+//    heap.insert(2);
+//    heap.insert(4);
+//    heap.insert(1);
+//    double min = heap.extract_min();
+//    min = heap.extract_min();
+//    min = heap.extract_min();
 
 
     /* Test armadillo package */
